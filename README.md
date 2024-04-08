@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://github.com/EmaroLab/owloop/blob/master/gitRepoResources/images/owloopLogo.png" width="310">
+  <img src="https://github.com/buoncubi/owloop/blob/master/gitRepoResources/images/owloopLogo.png" width="310">
 </p>
 
 #
 [![code](https://img.shields.io/badge/code-Java-<COLOR>.svg)](https://en.wikipedia.org/wiki/Java_(programming_language))
-[![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/EmaroLab/owloop/blob/master/LICENSE)
-[![release](https://img.shields.io/badge/release-v2.1-red.svg)](https://github.com/EmaroLab/owloop/releases/tag/2.1)
+[![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/buoncubi/owloop/blob/master/LICENSE)
+[![release](https://img.shields.io/badge/release-v2.1-red.svg)](https://github.com/buoncubi/owloop/releases/tag/2.1)
 
 
 
@@ -19,16 +19,16 @@ But, the usage of the classic OWL-API leaves your project with lots of boilerpla
 This video [(link)](https://youtu.be/SEEqSawrQNo) shows a smart home system recognising human activities. The system uses a network of multiple ontologies to recognise specific activities. The network of multiple ontologies was developed using OWLOOP API.  
 
 ## Table of Contents
-1. [Reference to the publication](https://github.com/TheEngineRoom-UniGe/OWLOOP#1-reference-to-the-publication)
-2. [Getting Started with OWLOOP](https://github.com/TheEngineRoom-UniGe/OWLOOP#2-getting-started-with-owloop)
-   * 2.1. [Prerequisites for your Operating System](https://github.com/TheEngineRoom-UniGe/OWLOOP#21-prerequisites-for-your-operating-system)
-   * 2.2. [Add OWLOOP dependencies to your project](https://github.com/TheEngineRoom-UniGe/OWLOOP#22-add-owloop-dependencies-to-your-project)
-   * 2.3. [Use OWLOOP in your project](https://github.com/TheEngineRoom-UniGe/OWLOOP#23-use-owloop-in-your-project) 
-3. [Overview of important Java-classes (in OWLOOP) and their methods](https://github.com/TheEngineRoom-UniGe/OWLOOP#3-overview-of-important-java-classes-in-owloop-and-their-methods)
-4. [Wiki documentation](https://github.com/TheEngineRoom-UniGe/OWLOOP#4-wiki-documentation)
-5. [Some details about OWLOOP dependencies](https://github.com/TheEngineRoom-UniGe/OWLOOP#5-some-details-about-owloop-dependencies)
-6. [Developers' message](https://github.com/TheEngineRoom-UniGe/OWLOOP#6-developers-message)
-7. [License](https://github.com/TheEngineRoom-UniGe/OWLOOP#7-license)
+1. [Reference to the publication](https://github.com/buoncubi/owloop#1-reference-to-the-publication)
+2. [Getting Started with OWLOOP](https://github.com/buoncubi/owloop#2-getting-started-with-owloop)
+   * 2.1. [Prerequisites for your Operating System](https://github.com/buoncubi/owloop#21-prerequisites-for-your-operating-system)
+   * 2.2. [Add OWLOOP dependencies to your project](https://github.com/buoncubi/owloop#22-add-owloop-dependencies-to-your-project)
+   * 2.3. [Use OWLOOP in your project](https://github.com/buoncubi/owloop#23-use-owloop-in-your-project) 
+3. [Overview of important Java-classes (in OWLOOP) and their methods](https://github.com/buoncubi/owloop#3-overview-of-important-java-classes-in-owloop-and-their-methods)
+4. [Wiki documentation](https://github.com/buoncubi/owloop#4-wiki-documentation)
+5. [Some details about OWLOOP dependencies](https://github.com/buoncubi/owloop#5-some-details-about-owloop-dependencies)
+6. [Developers' message](https://github.com/buoncubi/owloop#6-developers-message)
+7. [License](https://github.com/buoncubi/owloop#7-license)
 
 ## 1. Reference to the Publication
 
@@ -60,13 +60,13 @@ Please, cite this work as:
 ### 2.2. Add OWLOOP dependencies to your project
 
 * Download OWLOOP related jar files.
-  * [owloop-2.1.jar](https://github.com/EmaroLab/owloop/releases/tag/2.1)
+  * [owloop-2.1.jar](https://github.com/buoncubi/owloop/releases/tag/2.1)
   * [amor-2.2.jar](https://github.com/EmaroLab/multi_ontology_reference/releases/tag/v2.2)
   
 * Add OWLOOP related jar files to your project: 
 
 <p align="center">
-  <img src="https://github.com/TheEngineRoom-UniGe/OWLOOP/blob/master/gitRepoResources/images/owloop_setup.gif">
+  <img src="https://github.com/buoncubi/owloop/blob/master/gitRepoResources/images/owloop_setup.gif">
 </p>
 
 **First Step**: Create a new project with `Java` as the programming language and `Gradle` as the build tool.
@@ -165,13 +165,13 @@ public class someClassInMyProject {
 * After running the above code, the OWL file `robotAtHomeOntology` gets saved in `src/main/resources`. We can open the OWL file in [Protege](https://protege.stanford.edu/) and view the ontology.
 
 <p align="center">
-  <img src="https://github.com/TheEngineRoom-UniGe/OWLOOP/blob/master/gitRepoResources/images/add_axioms_and_view_in_protege.gif">
+  <img src="https://github.com/buoncubi/owloop/blob/master/gitRepoResources/images/add_axioms_and_view_in_protege.gif">
 </p>
 
 ## 3. Overview of important Java-classes (in OWLOOP) and their methods
 
 <p align="center">
-  <img src="https://github.com/TheEngineRoom-UniGe/OWLOOP/blob/master/gitRepoResources/images/descriptor_methods.png" width="400">
+  <img src="https://github.com/buoncubi/owloop/blob/master/gitRepoResources/images/descriptor_methods.png" width="400">
 </p>
 
 | Java-classes                                                                                                                                                                                                                                                                                             | methods                                                                                                                                                                                                             |
@@ -185,45 +185,45 @@ public class someClassInMyProject {
 
 ## 4. Wiki documentation
 
-The OWLOOP API's core aspects are described in this repository's [wiki](https://github.com/EmaroLab/owloop/wiki):
+The OWLOOP API's core aspects are described in this repository's [wiki](https://github.com/buoncubi/owloop/wiki):
 
-- [Structure](https://github.com/EmaroLab/owloop/wiki/1.-Project-Structure-&-JavaDoc#project-structure) of the 
+- [Structure](https://github.com/buoncubi/owloop/wiki/1.-Project-Structure-&-JavaDoc#project-structure) of the 
 OWLOOP API project.
 
-- [JavaDoc](https://github.com/EmaroLab/owloop/wiki/1.-Project-Structure-&-JavaDoc#javadoc) of the OWLOOP API project.
+- [JavaDoc](https://github.com/buoncubi/owloop/wiki/1.-Project-Structure-&-JavaDoc#javadoc) of the OWLOOP API project.
 
-- What is a [Descriptor](https://github.com/EmaroLab/owloop/wiki/2.-What-is-a-Descriptor%3F) in OWLOOP?
-    - [Types](https://github.com/EmaroLab/owloop/wiki/2.1.-Types-of-Descriptors) of 
+- What is a [Descriptor](https://github.com/buoncubi/owloop/wiki/2.-What-is-a-Descriptor%3F) in OWLOOP?
+    - [Types](https://github.com/buoncubi/owloop/wiki/2.1.-Types-of-Descriptors) of 
     descriptors.
-    - [Expressions](https://github.com/EmaroLab/owloop/wiki/2.2.-Possible-Expressions-for-each-Type-of-Descriptor) that can 
+    - [Expressions](https://github.com/buoncubi/owloop/wiki/2.2.-Possible-Expressions-for-each-Type-of-Descriptor) that can 
     be implemented for each type of descriptor. 
-    - [Methods](https://github.com/EmaroLab/owloop/wiki/2.3.-Methods-of-a-Descriptor-object) of a descriptor.
-    - [Preconstructed Descriptors](https://github.com/EmaroLab/owloop/wiki/2.4.-Preconstructed-Descriptors) provided by 
+    - [Methods](https://github.com/buoncubi/owloop/wiki/2.3.-Methods-of-a-Descriptor-object) of a descriptor.
+    - [Preconstructed Descriptors](https://github.com/buoncubi/owloop/wiki/2.4.-Preconstructed-Descriptors) provided by 
     OWLOOP.
 
 - Code examples that show how to: 
 
-    - [Construct](https://github.com/EmaroLab/owloop/wiki/3.-Example:-Constructing-a-Descriptor) a type of descriptor.
+    - [Construct](https://github.com/buoncubi/owloop/wiki/3.-Example:-Constructing-a-Descriptor) a type of descriptor.
 
-    - [Add](https://github.com/EmaroLab/owloop/wiki/4.-Example:-Adding-Axioms-to-an-Ontology) axioms to an ontology by 
+    - [Add](https://github.com/buoncubi/owloop/wiki/4.-Example:-Adding-Axioms-to-an-Ontology) axioms to an ontology by 
     using descriptors.
 
-    - [Infer](https://github.com/EmaroLab/owloop/wiki/5.-Example:-Inferring-Axioms-from-an-Ontology) some knowledge 
+    - [Infer](https://github.com/buoncubi/owloop/wiki/5.-Example:-Inferring-Axioms-from-an-Ontology) some knowledge 
     (i.e., axioms) from the axioms already present within an ontology by using descriptors. 
     This example also highlights the use of the `build()` method.
 
-    - [Remove](https://github.com/EmaroLab/owloop/wiki/6.-Example:-Removing-Axioms-from-an-Ontology) axioms from an 
+    - [Remove](https://github.com/buoncubi/owloop/wiki/6.-Example:-Removing-Axioms-from-an-Ontology) axioms from an 
     ontology by using descriptors.
 
 ## 5. Some details about OWLOOP dependencies
 
-Please use [Gradle](https://github.com/EmaroLab/owloop/blob/master/build.gradle) as the build tool for your project, and include the following dependencies in your project's `build.gradle` file:
+Please use [Gradle](https://github.com/buoncubi/owloop/blob/master/build.gradle) as the build tool for your project, and include the following dependencies in your project's `build.gradle` file:
 
 * [aMOR](https://github.com/EmaroLab/multi_ontology_reference) (latest release is **amor-2.2**): **a** 
 **M**ulti-**O**ntology **R**eference library is based on OWL-API and it provides helper functions to OWLOOP.
   * [OWL-API](https://github.com/owlcs/owlapi): a Java API for creating, manipulating and serialising OWL Ontologies. We 
   have included **owlapi-distribution-5.0.5** within **amor-2.2**.
-* [OWLOOP](https://github.com/EmaroLab/owloop) (latest release is **owloop-2.2**): an API that enables easy manipulation 
+* [OWLOOP](https://github.com/buoncubi/owloop) (latest release is **owloop-2.2**): an API that enables easy manipulation 
 of OWL (Ontology Web Language) ontologies from within an OOP (Object Oriented Programming) paradigm. 
   * [Pellet](https://github.com/stardog-union/pellet): an open source OWL 2 DL reasoner. We have included 
   **openllet-owlapi-2.5.1** within **owloop-2.2**.
@@ -232,16 +232,16 @@ of OWL (Ontology Web Language) ontologies from within an OOP (Object Oriented Pr
 Feel free to contribute to OWLOOP by sharing your thoughts and ideas, raising issues (if found) and providing bug-fixes. 
 For any information or support, please do not hesitate to contact us through this Github repository or by email.
 
-Developed by [luca.buoncompagni@edu.unige.it](mailto:luca.buoncompagni@edu.unige.it) and 
+Developed by [buon_luca@yahoo.com](mailto:buon_luca@yahoo.com) and 
 [kareem.syed.yusha@dibris.unige.it](mailto:kareem.syed.yusha@dibris.unige.it) under the supervision of 
 [fulvio.mastrogiovanni@unige.it](mailto:fulvio.mastrogiovanni@unige.it).
 
 ## 7. License
 
-OWLOOP is under the license: [GNU General Public License v3.0](https://github.com/EmaroLab/owloop/blob/master/LICENSE) 
+OWLOOP is under the license: [GNU General Public License v3.0](https://github.com/buoncubi/owloop/blob/master/LICENSE) 
 
 ##
 
 <p align="center">
-  <img src="https://github.com/TheEngineRoom-UniGe/OWLOOP/blob/master/gitRepoResources/images/unige_ter_logo.png" width="400">
+  <img src="https://github.com/buoncubi/owloop/blob/master/gitRepoResources/images/unige_ter_logo.png" width="400">
 </p>
